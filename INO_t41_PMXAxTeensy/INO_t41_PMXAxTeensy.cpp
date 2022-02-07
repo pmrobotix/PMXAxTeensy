@@ -6,7 +6,7 @@
 void setup()
 {
 // Add your initialization code here
-    //TEST
+    //TEST2
 }
 
 // The loop function is called in an endless loop
