@@ -34,7 +34,12 @@
 		<link>
 			<name>core/core</name>
 			<type>2</type>
-			<location>/home/pmx/APROGRAMS/arduino-1.8.13/hardware/teensy/avr/cores/teensy4</location>
+			<location>/home/pmx/APROGRAMS/arduino-1.8.19/hardware/teensy/avr/cores/teensy4</location>
+		</link>
+		<link>
+			<name>libraries/teensy4_i2c-master</name>
+			<type>2</type>
+			<location>/home/pmx/Arduino/libraries/teensy4_i2c-master</location>
 		</link>
 	</linkedResources>
 </projectDescription>
