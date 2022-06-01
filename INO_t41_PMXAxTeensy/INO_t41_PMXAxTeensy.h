@@ -98,8 +98,8 @@ int checkCRC(uint8_t* buf, uint16_t length);
 
 // Callbacks.
 void after_receive(size_t length, uint16_t address);
-void after_transmit(uint16_t address);
-void before_transmit(uint16_t address);
+//void after_transmit(uint16_t address);
+//void before_transmit(uint16_t address);
 
 //Do not add code below this line
 #endif /* _INO_t41_PMXAxTeensy_H_ */
