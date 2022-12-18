@@ -34,12 +34,12 @@
 		<link>
 			<name>core/core</name>
 			<type>2</type>
-			<location>/home/pmx/APROGRAMS/arduino-1.8.19/hardware/teensy/avr/cores/teensy4</location>
+			<locationURI>ECLIPSE_HOME/arduinoPlugin/packages/teensy/hardware/avr/1.57.1/cores/teensy4</locationURI>
 		</link>
 		<link>
 			<name>libraries/teensy4_i2c-master</name>
 			<type>2</type>
-			<location>/home/pmx/Arduino/libraries/teensy4_i2c-master</location>
+			<location>/home/pmx/git/RobotsDetectionBeacon/Libraries/teensy4_i2c-master</location>
 		</link>
 	</linkedResources>
 </projectDescription>
