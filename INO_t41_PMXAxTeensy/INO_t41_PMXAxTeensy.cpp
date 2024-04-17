@@ -162,7 +162,7 @@ int getAddressSize(int address) {
 
 */
 uint8_t sendAX(uint8_t port, uint8_t* buffer, int packetSize, uint8_t* result, int parametersToRead) {
-  HardwareSerial *uart = &Serial2;
+  HardwareSerialIMXRT *uart = &Serial2;
   if(port==1){
     // AX1 : Serial 2
     uart = &Serial2;

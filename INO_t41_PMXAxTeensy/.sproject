@@ -1,10 +1,9 @@
-Config.Release.board.BOARD.ID=teensy41
-Config.Release.board.BOARD.MENU.cpu=getMenuItemIDFromMenuItemName did not find menu item with name "ATmega328P" for menu ID "cpu" and for boardID "diecimila"!
+Config.Release.board.BOARD.ID=teensy40
 Config.Release.board.BOARD.MENU.keys=fr-fr
-Config.Release.board.BOARD.MENU.opt=osstd
+Config.Release.board.BOARD.MENU.opt=o3std
 Config.Release.board.BOARD.MENU.speed=600
 Config.Release.board.BOARD.MENU.usb=serial
-Config.Release.board.BOARD.TXT=${SLOEBER_HOME}/arduinoPlugin/packages/teensy/hardware/avr/1.57.1/boards.txt
+Config.Release.board.BOARD.TXT=${SLOEBER_HOME}/arduinoPlugin/packages/teensy/hardware/avr/1.59.0/boards.txt
 Config.Release.board.PROGRAMMER.NAME=
 Config.Release.board.UPLOAD.PORT=
 Config.Release.compile.sloeber.extra.all=
