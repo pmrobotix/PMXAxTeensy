@@ -8,15 +8,12 @@
 #define _INO_t41_PMXAxTeensy_H_
 #include "Arduino.h"
 
-
-
 // PING No action. Used for obtaining a Status Packet (0 parameter)
 #define AX_CMD_PING   0x01
 // Reading values in the Control Table (2 parameters)
 #define AX_CMD_READ_DATA   0x02
 // Writing values to the Control Table (2+ parameters)
 #define AX_CMD_WRITE_DATA  0x03
-
 
 // AXTeensy commands
 #define AXT_CMD_SET_LED_ON      10
@@ -34,8 +31,6 @@
 #define AXT_ERROR_CRC           -40;
 
 #define AXT_AX_MISSING          8
-
-
 
 // AX12 memory address
 #define P_MODEL_NUMBER        0
@@ -76,7 +71,6 @@
 #define P_LOCK            47
 #define P_PUNCH           48
 
-
 void setup();
 void loop();
 
@@ -86,15 +80,13 @@ void setLedOff(int led);
 void setAXTxMode(int ax);
 void setAXRxMode(int ax);
 int getAddressSize(int address);
-uint8_t sendAX(uint8_t port, uint8_t* buffer, int packetSize, uint8_t* result, int parametersToRead);
+uint8_t sendAX(uint8_t port, uint8_t *buffer, int packetSize, uint8_t *result, int parametersToRead);
 int pingAX(uint8_t port, uint8_t id);
-int readAXData(uint8_t port, uint8_t id, uint8_t address, int* err);
+int readAXData(uint8_t port, uint8_t id, uint8_t address, int *err);
 int writeAXData(uint8_t port, uint8_t id, uint8_t address, uint16_t data);
 
-
 uint8_t computeCRC(uint8_t c, uint8_t *buf, uint16_t length);
-int checkCRC(uint8_t* buf, uint16_t length);
-
+int checkCRC(uint8_t *buf, uint16_t length);
 
 // Callbacks.
 void after_receive(size_t length, uint16_t address);
